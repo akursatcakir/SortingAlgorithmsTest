@@ -22,9 +22,9 @@ Array lengths;
  
 You can change test lengths, orders, algorithms on SortingTest/SortingTest.cpp test() function;
 
-for change algorithms;
+#### For change algorithms;
 
- test.algorithms.insert(tester::algorithm(algorithm_name, pointer_to_function));
+ 	test.algorithms.insert(tester::algorithm(algorithm_name, pointer_to_function));
 - algorithm_name: string, Algorithm's name
 - pointer_to_function: function pointer, Algorithm's entry function
 
@@ -36,7 +36,7 @@ ex:
 
 	test.algorithms.insert(tester::algorithm("Selection", &sorting::selection));
 
-for change orders;
+#### For change orders;
 
 	test.creators.insert(tester::creator(order_name, pointer_to_array_creator_function));
 - order_name: string, Order type's name
@@ -49,7 +49,7 @@ ex:
 
 	test.creators.insert(tester::creator("Rastgele", &create::random));
 
-for change legths;
+#### For change legths;
 
 	test.counts.push_back(array_length);
 - array_length: unsigned int, Array's length to be created for test.
@@ -57,9 +57,10 @@ for change legths;
 ex:
 
 	test.counts.push_back(10000);
-
-	Array creator functions on SortingTest/create.cpp and its header file is SortingTest/create.h
 	
-	Algorithm functions on SortingTest/sorting.cpp and its header file is  SortingTest/sorting.h
+
+Array creator functions on SortingTest/create.cpp and its header file is SortingTest/create.h
+	
+Algorithm functions on SortingTest/sorting.cpp and its header file is  SortingTest/sorting.h
 
 You can send pull requests, thanks.
