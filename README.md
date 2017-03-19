@@ -36,7 +36,7 @@ ex:
 
 	test.algorithms.insert(tester::algorithm("Selection", &sorting::selection));
 
-#### For change orders;
+#### For change array creators;
 
 	test.creators.insert(tester::creator(order_name, pointer_to_array_creator_function));
 - order_name: string, Order type's name
@@ -49,7 +49,7 @@ ex:
 
 	test.creators.insert(tester::creator("Rastgele", &create::random));
 
-#### For change legths;
+#### For change lengths;
 
 	test.counts.push_back(array_length);
 - array_length: unsigned int, Array's length to be created for test.
