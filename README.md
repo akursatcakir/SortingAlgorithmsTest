@@ -9,6 +9,7 @@ Algorithms;
  - Bubble Sort
  - Merge Sort
  - Quick Sort
+ - Heap Sort
 
 Test orders;
  - Random Sorted
