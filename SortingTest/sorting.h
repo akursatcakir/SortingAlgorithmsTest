@@ -11,4 +11,6 @@ namespace sorting {
 	void quick(int *Vector, unsigned int size);
 
 	void merge(int *Vector, unsigned int size);
+
+	void heap(int *Vector, unsigned int size);
 }

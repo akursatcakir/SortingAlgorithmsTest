@@ -26,6 +26,7 @@ vector<vector<vector<string>>> test() {
 	test.algorithms.insert(tester::algorithm("Bubble", &sorting::bubble));
 	test.algorithms.insert(tester::algorithm("Quick", &sorting::quick));
 	test.algorithms.insert(tester::algorithm("Merge", &sorting::merge));
+	test.algorithms.insert(tester::algorithm("Heap", &sorting::merge));
 
 	test.counts.push_back(10000);
 	test.counts.push_back(20000);
