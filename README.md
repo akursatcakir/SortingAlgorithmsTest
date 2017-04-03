@@ -16,11 +16,6 @@ Test orders;
  - Reverse Sorted
  - Sorted
  
-Array lengths;
- - 10.000
- - 20.000
- - 30.000
- 
 You can change test lengths, orders, algorithms on SortingTest/SortingTest.cpp test() function;
 
 #### For change algorithms;
